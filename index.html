@@ -1,0 +1,1670 @@
+<!DOCTYPE html>
+<html lang="bn" style="scroll-behavior: smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>রনি ডেকোরেটর - বিয়ের সাজসজ্জা বিশেষজ্ঞ</title>
+    <meta
+      name="description"
+      content="রনি ডেকোরেটর - ১৯৮৮ সাল থেকে বিয়ে, আকদ, গায়ে হলুদ এবং যেকোনো অনুষ্ঠানের জন্য প্রিমিয়াম ডেকোরেশন সার্ভিস। আপনার বিশেষ দিনকে স্মরণীয় করে তুলতে আমরা আছি আপনার পাশে।"
+    />
+    <meta
+      name="keywords"
+      content="রনি ডেকোরেটর, Roni Decorator, wedding decoration, biyer stage, holud stage, event management, Dhaka, Bangladesh"
+    />
+    <meta name="author" content="রনি ডেকোরেটর" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <style>
+      /* --- Local Font Integration --- */
+      @font-face {
+        font-family: "AnikFont";
+        src: url("anik.woff2") format("woff2"), url("anik.woff") format("woff"),
+          url("anik.ttf") format("truetype");
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap; /* Improves font loading performance */
+      }
+
+      /* --- CSS Variables for Theming --- */
+      :root {
+        --primary: #c7891a;
+        --primary-dark: #a16c0b;
+        --primary-light: #e6a532;
+      }
+
+      /* --- Base Body Styles --- */
+      body {
+        font-family: "AnikFont", "Hind Siliguri", sans-serif;
+      }
+
+      /* --- Theme Color Utilities --- */
+      .theme-bg {
+        background-color: var(--primary);
+      }
+      .theme-text {
+        color: var(--primary);
+      }
+      .gradient-bg {
+        background: linear-gradient(
+          to right,
+          var(--primary-dark),
+          var(--primary)
+        );
+      }
+
+      /* --- Section Title --- */
+      .section-title {
+        font-size: 2rem;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 1rem;
+        color: var(--primary-dark);
+      }
+      @media (min-width: 768px) {
+        .section-title {
+          font-size: 2.5rem;
+        }
+      }
+
+      /* --- Interactive Elements & Animations --- */
+      .card-hover {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+      .card-hover:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 15px 30px -5px rgba(183, 122, 15, 0.3);
+      }
+      .btn-primary {
+        background-color: var(--primary);
+        color: white;
+        padding: 0.75rem 1.5rem;
+        border-radius: 9999px;
+        font-weight: 600;
+        transition: all 0.3s ease;
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
+      .btn-primary:hover {
+        background-color: var(--primary-dark);
+        transform: scale(1.05);
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+      }
+      .btn-secondary {
+        background-color: #fef3c7;
+        color: var(--primary-dark);
+        padding: 0.75rem 1.5rem;
+        border-radius: 9999px;
+        font-weight: 600;
+        transition: all 0.3s ease;
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
+      .btn-secondary:hover {
+        background-color: #fde68a;
+        transform: scale(1.05);
+      }
+
+      /* --- Navigation --- */
+      .sticky-nav {
+        position: sticky;
+        top: 0;
+        z-index: 50;
+        backdrop-filter: blur(10px);
+        background-color: rgba(255, 255, 255, 0.9);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+      }
+
+      /* --- Hero Section Typing Animation --- */
+      .typing-cursor {
+        display: inline-block;
+        width: 3px;
+        background-color: white;
+        animation: blink 0.7s infinite;
+      }
+      @keyframes blink {
+        0%,
+        100% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0;
+        }
+      }
+
+      /* --- Cost Calculator Table --- */
+      .table-row-active {
+        background-color: #fef9c3;
+      }
+
+      /* --- Back to Top Button --- */
+      #back-to-top {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        display: none;
+        z-index: 100;
+      }
+
+      /* --- Form Validation --- */
+      .form-error {
+        color: #ef4444; /* red-500 */
+        font-size: 0.875rem; /* text-sm */
+        margin-top: 0.25rem;
+      }
+    </style>
+  </head>
+
+  <body class="bg-amber-50 text-gray-800">
+    <header
+      class="sticky top-0 z-50 backdrop-blur-md bg-gradient-to-r from-amber-100/90 via-white/50 to-amber-50/90 shadow-md transition-all duration-500 ease-in-out hover:shadow-xl"
+    >
+      <nav
+        class="container mx-auto px-6 py-3 flex justify-between items-center"
+        aria-label="Main Navigation"
+      >
+        <!-- Logo -->
+        <a
+          href="#home"
+          class="text-2xl font-bold flex items-center transition-transform duration-300 hover:scale-105"
+        >
+          <img
+            src="https://i.postimg.cc/NjhTtRzP/476817132-1034880651999153-1360154503513053210-n-removebg-preview.png"
+            alt="রনি ডেকোরেটর লোগো"
+            class="h-14 w-14 mr-2 rounded-full transition-transform duration-300 hover:rotate-12"
+          />
+          <span class="hidden sm:inline text-amber-800 font-semibold"
+            >রনি ডেকোরেটর</span
+          >
+        </a>
+
+        <!-- Desktop Menu -->
+        <div class="hidden md:flex space-x-8 items-center font-medium">
+          <a
+            href="#home"
+            class="text-amber-800 hover:text-amber-900 transition duration-300"
+            >হোম</a
+          >
+          <a
+            href="#packages"
+            class="text-amber-800 hover:text-amber-900 transition duration-300"
+            >প্যাকেজ</a
+          >
+          <a
+            href="#gallery"
+            class="text-amber-800 hover:text-amber-900 transition duration-300"
+            >গ্যালারি</a
+          >
+          <a
+            href="#calculator"
+            class="text-amber-800 hover:text-amber-900 transition duration-300"
+            >খরচ হিসাব</a
+          >
+          <a
+            href="#about"
+            class="text-amber-800 hover:text-amber-900 transition duration-300"
+            >আমাদের সম্পর্কে</a
+          >
+          <a
+            href="#contact"
+            class="btn-primary transition-transform duration-300 hover:scale-105"
+          >
+            <i class="fas fa-phone-alt"></i>যোগাযোগ
+          </a>
+        </div>
+
+        <!-- Mobile Menu Button -->
+        <button
+          id="mobile-menu-button"
+          class="md:hidden text-amber-800 text-2xl transition-transform duration-300 hover:scale-110"
+          aria-label="Open mobile menu"
+          aria-expanded="false"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+      </nav>
+
+      <!-- Mobile Menu -->
+      <div
+        id="mobile-menu"
+        class="hidden md:hidden bg-gradient-to-b from-amber-100/90 via-white/70 to-amber-50/90 backdrop-blur-md transition-all duration-500 ease-in-out"
+      >
+        <a
+          href="#home"
+          class="block py-3 px-6 text-amber-800 hover:bg-amber-50 transition-colors duration-300"
+          >হোম</a
+        >
+        <a
+          href="#packages"
+          class="block py-3 px-6 text-amber-800 hover:bg-amber-50 transition-colors duration-300"
+          >প্যাকেজ</a
+        >
+        <a
+          href="#gallery"
+          class="block py-3 px-6 text-amber-800 hover:bg-amber-50 transition-colors duration-300"
+          >গ্যালারি</a
+        >
+        <a
+          href="#calculator"
+          class="block py-3 px-6 text-amber-800 hover:bg-amber-50 transition-colors duration-300"
+          >খরচ হিসাব</a
+        >
+        <a
+          href="#about"
+          class="block py-3 px-6 text-amber-800 hover:bg-amber-50 transition-colors duration-300"
+          >আমাদের সম্পর্কে</a
+        >
+        <div class="p-4">
+          <a
+            href="#contact"
+            class="block w-full btn-primary text-center transition-transform duration-300 hover:scale-105"
+          >
+            <i class="fas fa-phone-alt"></i>যোগাযোগ
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section
+        id="home"
+        class="relative min-h-screen flex items-center justify-center text-center text-white overflow-hidden bg-cover bg-center"
+        style="
+          background-image: linear-gradient(
+              rgba(0, 0, 0, 0.5),
+              rgba(0, 0, 0, 0.5)
+            ),
+            url('https://i.postimg.cc/8C8LD9Zv/IMG-5907.png');
+        "
+        aria-labelledby="hero-title"
+      >
+        <div class="relative z-10 p-6 max-w-4xl mx-auto" data-aos="fade-up">
+          <h1
+            id="hero-title"
+            class="text-4xl md:text-6xl font-extrabold leading-tight mb-6"
+            style="text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7)"
+          >
+            আপনার বিশেষ দিনকে করে তুলুন
+            <span id="typing-effect" class="theme-text"></span>
+            <span class="typing-cursor">&nbsp;</span>
+          </h1>
+          <p
+            class="text-lg md:text-xl max-w-3xl mx-auto mb-10"
+            style="text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7)"
+          >
+            বিয়ে, আকদ ও গায়ে হলুদের আয়োজনের জন্য এক্সক্লুসিভ ডেকোরেশন সার্ভিস
+          </p>
+          <div
+            class="flex flex-col sm:flex-row gap-4 justify-center"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <a href="#packages" class="btn-primary text-lg">
+              <i class="fas fa-gift"></i>প্যাকেজ দেখুন
+            </a>
+            <a href="#contact" class="btn-secondary text-lg">
+              <i class="fas fa-calendar-check"></i>বুকিং করুন
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="packages" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+          <h2 class="section-title" data-aos="fade-up">আমাদের বিশেষ প্যাকেজ</h2>
+          <p
+            class="text-center text-gray-600 max-w-2xl mx-auto mb-12"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            আপনার বাজেট এবং পছন্দ অনুযায়ী আমরা কাস্টমাইজড প্যাকেজ অফার করি
+          </p>
+          <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 p-4 md:p-8">
+            <div
+              class="bg-amber-50 rounded-lg shadow-lg overflow-hidden flex flex-col card-hover"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="bg-amber-600 text-white py-4 px-6">
+                <h3 class="text-2xl font-bold">বেসিক প্যাকেজ</h3>
+                <p class="text-amber-100">শুরুথেকেই সুন্দর</p>
+              </div>
+              <div class="p-6 flex flex-col flex-grow">
+                <div class="my-4">
+                  <span class="text-4xl font-bold text-amber-600">৳১৫,০০০</span>
+                  <span class="text-gray-600">/ ইভেন্ট</span>
+                </div>
+                <ul class="space-y-3 mb-6">
+                  <li>
+                    <i class="fas fa-check-circle text-amber-600 mr-2"></i>ষ্টেজ
+                    ব‍্যাকড্রপ ডিজাইন (৯ ফুট)
+                  </li>
+                  <li>
+                    <i class="fas fa-check-circle text-amber-600 mr-2"></i
+                    >সোফাসেট (২+১)
+                  </li>
+                  <li>
+                    <i class="fas fa-check-circle text-amber-600 mr-2"></i>ষ্টেজ
+                    লাইটিং (হ্যালোজেন)
+                  </li>
+                  <li>
+                    <i class="fas fa-check-circle text-amber-600 mr-2"></i
+                    >এন্ট্রিগেইট ডেকোরেশন
+                  </li>
+                  <li>
+                    <i class="fas fa-check-circle text-amber-600 mr-2"></i
+                    >ওয়েলকাম ব‍্যানার
+                  </li>
+                </ul>
+                <button
+                  onclick="openForm('বেসিক প্যাকেজ','৳১৫,০০০','ষ্টেজ ব‍্যাকড্রপ ডিজাইন (৯ ফুট), সোফাসেট (২+১), ষ্টেজ লাইটিং (হ্যালোজেন), এন্ট্রিগেইট ডেকোরেশন, ওয়েলকাম ব‍্যানার')"
+                  class="bg-amber-600 hover:bg-amber-700 text-white font-bold py-2 px-4 rounded mt-auto"
+                >
+                  বুক করুন
+                </button>
+              </div>
+            </div>
+
+            <div
+              class="bg-amber-50 rounded-lg shadow-lg overflow-hidden flex flex-col card-hover"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
+              <div class="bg-amber-600 text-white py-4 px-6">
+                <h3 class="text-2xl font-bold">প্রিমিয়াম প্যাকেজ</h3>
+                <p class="text-amber-100">সবচেয়ে জনপ্রিয়</p>
+              </div>
+              <div class="p-6 flex flex-col flex-grow">
+                <div class="my-4">
+                  <span class="text-4xl font-bold text-amber-600">৳২৫,০০০</span>
+                  <span class="text-gray-600">/ ইভেন্ট</span>
+                </div>
+                <ul class="space-y-3 mb-6">
+                  <li>
+                    <i class="fas fa-check-circle text-amber-600 mr-2"></i>ষ্টেজ
+                    ব‍্যাকড্রপ ডিজাইন (১২ ফুট)
+                  </li>
+                  <li>
+                    <i class="fas fa-check-circle text-amber-600 mr-2"></i
+                    >সোফাসেট (৩+২)
+                  </li>
+                  <li>
+                    <i class="fas fa-check-circle text-amber-600 mr-2"></i>ষ্টেজ
+                    লাইটিং (পার্গান)
+                  </li>
+                  <li>
+                    <i class="fas fa-check-circle text-amber-600 mr-2"></i
+                    >ফটোবুথ ডেকোরেশন
+                  </li>
+                  <li>
+                    <i class="fas fa-check-circle text-amber-600 mr-2"></i
+                    >গালিচা ওয়াকওয়ে (২৫ ফুট)
+                  </li>
+                  <li>
+                    <i class="fas fa-check-circle text-amber-600 mr-2"></i
+                    >ভিআইপি টেবিল ডেকোরেশন
+                  </li>
+                </ul>
+                <button
+                  onclick="openForm('প্রিমিয়াম প্যাকেজ','৳২৫,০০০','ষ্টেজ ব‍্যাকড্রপ ডিজাইন (১২ ফুট), সোফাসেট (৩+২), ষ্টেজ লাইটিং (পার্গান), ফটোবুথ ডেকোরেশন, গালিচা ওয়াকওয়ে (২৫ ফুট), ভিআইপি টেবিল ডেকোরেশন')"
+                  class="bg-amber-600 hover:bg-amber-700 text-white font-bold py-2 px-4 rounded mt-auto"
+                >
+                  বুক করুন
+                </button>
+              </div>
+            </div>
+
+            <div
+              class="bg-amber-50 rounded-lg shadow-lg overflow-hidden flex flex-col card-hover"
+              data-aos="fade-up"
+              data-aos-delay="400"
+            >
+              <div class="bg-amber-600 text-white py-4 px-6">
+                <h3 class="text-2xl font-bold">ভিআইপি প্যাকেজ</h3>
+                <p class="text-amber-100">বিলাসবহুল আয়োজন</p>
+              </div>
+              <div class="p-6 flex flex-col flex-grow">
+                <div class="my-4">
+                  <span class="text-4xl font-bold text-amber-600">৳৪০,০০০</span>
+                  <span class="text-gray-600">/ ইভেন্ট</span>
+                </div>
+                <ul class="space-y-3 mb-6">
+                  <li>
+                    <i class="fas fa-check-circle text-amber-600 mr-2"></i>ষ্টেজ
+                    ব‍্যাকড্রপ ডিজাইন (১৮ ফুট)
+                  </li>
+                  <li>
+                    <i class="fas fa-check-circle text-amber-600 mr-2"></i
+                    >প্রিমিয়াম সোফাসেট (৩+২)
+                  </li>
+                  <li>
+                    <i class="fas fa-check-circle text-amber-600 mr-2"></i
+                    >এডভান্সড লাইটিং সিস্টেম
+                  </li>
+                  <li>
+                    <i class="fas fa-check-circle text-amber-600 mr-2"></i
+                    >লাক্সারি ফটোবুথ
+                  </li>
+                  <li>
+                    <i class="fas fa-check-circle text-amber-600 mr-2"></i
+                    >গালিচা ওয়াকওয়ে (৩০ ফুট)
+                  </li>
+                  <li>
+                    <i class="fas fa-check-circle text-amber-600 mr-2"></i
+                    >এক্সক্লুসিভ ভিআইপি টেবিল
+                  </li>
+                  <li>
+                    <i class="fas fa-check-circle text-amber-600 mr-2"></i
+                    >সম্পূর্ণ ভেন্যু ডেকোরেশন
+                  </li>
+                </ul>
+                <button
+                  onclick="openForm('ভিআইপি প্যাকেজ','৳৪০,০০০','ষ্টেজ ব‍্যাকড্রপ ডিজাইন (১৮ ফুট), প্রিমিয়াম সোফাসেট (৩+২), এডভান্সড লাইটিং সিস্টেম, লাক্সারি ফটোবুথ, গালিচা ওয়াকওয়ে (৩০ ফুট), এক্সক্লুসিভ ভিআইপি টেবিল, সম্পূর্ণ ভেন্যু ডেকোরেশন')"
+                  class="bg-amber-600 hover:bg-amber-700 text-white font-bold py-2 px-4 rounded mt-auto"
+                >
+                  বুক করুন
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="mt-16 bg-amber-100 rounded-lg p-6 md:p-8"
+            data-aos="fade-up"
+          >
+            <h3 class="text-xl font-bold theme-text mb-4">
+              <i class="fas fa-info-circle"></i> গুরুত্বপূর্ণ তথ্য:
+            </h3>
+            <ul class="space-y-3 text-gray-700">
+              <li class="flex items-start">
+                <i class="fas fa-times-circle text-red-500 mt-1 mr-3"></i>
+                <span
+                  >প্যাকেজের অন্তর্ভুক্ত নয়: ষ্টেজ প্ল্যাটফর্ম, হলরুম সিলিং
+                  লাইটিং, অতিরিক্ত লাইটিং, ভেন্যুর খরচ/বকশিশ।</span
+                >
+              </li>
+              <li class="flex items-start">
+                <i
+                  class="fas fa-exclamation-triangle text-yellow-600 mt-1 mr-3"
+                ></i>
+                <span
+                  >লিফট না থাকলে ২য় তলার উপরে মালামাল উঠানোর জন্য অতিরিক্ত
+                  লেবার চার্জ প্রযোজ্য।</span
+                >
+              </li>
+              <li class="flex items-start">
+                <i class="fas fa-check-double theme-text mt-1 mr-3"></i>
+                <span>বুকিং কনফার্ম করতে ২৫% টাকা অগ্রিম প্রদান করতে হবে।</span>
+              </li>
+              <li class="flex items-start">
+                <i class="fas fa-map-marker-alt text-blue-500 mt-1 mr-3"></i>
+                <span
+                  >এই প্যাকেজ শুধুমাত্র ঢাকা শহরের জন্য। ঢাকার বাইরে অতিরিক্ত
+                  গাড়িভাড়া এবং স্টাফ খরচ যোগ হবে।</span
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="py-16 gradient-bg text-white">
+        <div class="container mx-auto px-6 text-center" data-aos="zoom-in">
+          <h2 class="text-3xl md:text-4xl font-bold mb-4">বিশেষ অফার!</h2>
+          <p class="text-lg max-w-4xl mx-auto mb-8 text-amber-100">
+            আসসালামু আলাইকুম, আপনারা যারা কমিউনিটি সেন্টার, কনভেনশন হল, রিসোর্ট,
+            রেষ্টুরেন্ট বা বাসাবাড়িতে বিয়ে, আকদ ও গায়ে হলুদের আয়োজনের কথা ভাবছেন
+            তাদের জন্যই আমাদের এই বিশেষ প্যাকেজ এবং স্টেজ ডিজাইন গুলো।
+          </p>
+          <a
+            href="https://wa.me/8801998597540"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn-primary bg-white text-amber-800 hover:bg-amber-100 text-lg"
+          >
+            <i class="fab fa-whatsapp"></i>WhatsApp এ যোগাযোগ করুন
+          </a>
+        </div>
+      </section>
+
+      <section id="gallery" class="py-20 bg-amber-50">
+        <div class="container mx-auto px-6">
+          <h2 class="section-title" data-aos="fade-up">আমাদের কাজের সংগ্রহ</h2>
+          <p
+            class="text-center text-gray-600 max-w-2xl mx-auto mb-12"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            আমাদের দ্বারা ডিজাইনকৃত কিছু স্টেজ এবং ডেকোরেশন দেখুন
+          </p>
+
+          <div
+            id="galleryGrid"
+            class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
+          >
+            <div
+              class="rounded-lg overflow-hidden shadow-lg group cursor-pointer relative"
+              data-aos="zoom-in"
+              data-aos-delay="200"
+            >
+              <img
+                src="https://i.postimg.cc/sXmwLTfW/Whats-App-Image-2025-09-06-at-01-22-14-415080a9.jpg"
+                alt="বিয়ের স্টেজ"
+                loading="lazy"
+                class="w-full h-72 object-cover group-hover:scale-105 transition-transform duration-500"
+              />
+              <div
+                class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-all duration-300 flex items-end p-4"
+              >
+                <div
+                  class="text-white transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300"
+                >
+                  <h3 class="font-bold text-lg">বিয়ের স্টেজ</h3>
+                  <p class="text-sm">প্রিমিয়াম ফুল ডেকোরেশন</p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="rounded-lg overflow-hidden shadow-lg group cursor-pointer relative"
+              data-aos="zoom-in"
+              data-aos-delay="300"
+            >
+              <img
+                src="https://i.postimg.cc/QC05szvQ/Whats-App-Image-2025-09-06-at-01-22-15-aec7cd2e.jpg"
+                alt="গায়ে হলুদ"
+                loading="lazy"
+                class="w-full h-72 object-cover group-hover:scale-105 transition-transform duration-500"
+              />
+              <div
+                class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-all duration-300 flex items-end p-4"
+              >
+                <div
+                  class="text-white transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300"
+                >
+                  <h3 class="font-bold text-lg">গায়ে হলুদ</h3>
+                  <p class="text-sm">রঙিন থিম ডেকোরেশন</p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="rounded-lg overflow-hidden shadow-lg group cursor-pointer relative"
+              data-aos="zoom-in"
+              data-aos-delay="400"
+            >
+              <img
+                src="https://i.postimg.cc/N0Cjsc0f/Whats-App-Image-2025-09-06-at-01-22-51-743e0e15.jpg"
+                alt="এন্ট্রি গেট"
+                loading="lazy"
+                class="w-full h-72 object-cover group-hover:scale-105 transition-transform duration-500"
+              />
+              <div
+                class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-all duration-300 flex items-end p-4"
+              >
+                <div
+                  class="text-white transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300"
+                >
+                  <h3 class="font-bold text-lg">এন্ট্রি গেট</h3>
+                  <p class="text-sm">জমকালো ফুল ও লাইটের সাজ</p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="rounded-lg overflow-hidden shadow-lg group cursor-pointer relative"
+              data-aos="zoom-in"
+              data-aos-delay="200"
+            >
+              <img
+                src="https://i.postimg.cc/NfK7BsfL/Whats-App-Image-2025-09-06-at-01-24-02-084f6bd3.jpg"
+                alt="রিসেপশন"
+                loading="lazy"
+                class="w-full h-72 object-cover group-hover:scale-105 transition-transform duration-500"
+              />
+              <div
+                class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-all duration-300 flex items-end p-4"
+              >
+                <div
+                  class="text-white transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300"
+                >
+                  <h3 class="font-bold text-lg">রিসেপশন ডেকোরেশন</h3>
+                  <p class="text-sm">আধুনিক ও সুন্দর ডিজাইন</p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="rounded-lg overflow-hidden shadow-lg group cursor-pointer relative"
+              data-aos="zoom-in"
+              data-aos-delay="300"
+            >
+              <img
+                src="https://i.postimg.cc/Gp8ZDwQp/Whats-App-Image-2025-09-06-at-01-22-15-3781507e.jpg"
+                alt="ফটোবুথ"
+                loading="lazy"
+                class="w-full h-72 object-cover group-hover:scale-105 transition-transform duration-500"
+              />
+              <div
+                class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-all duration-300 flex items-end p-4"
+              >
+                <div
+                  class="text-white transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300"
+                >
+                  <h3 class="font-bold text-lg">ফটোবুথ</h3>
+                  <p class="text-sm">স্মরণীয় মুহূর্ত ধরে রাখুন</p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="rounded-lg overflow-hidden shadow-lg group cursor-pointer relative"
+              data-aos="zoom-in"
+              data-aos-delay="400"
+            >
+              <img
+                src="https://i.postimg.cc/ryQQqZ1Z/Whats-App-Image-2025-09-06-at-01-22-51-5f1e8a0d.jpg"
+                alt="ভিআইপি টেবিল"
+                loading="lazy"
+                class="w-full h-72 object-cover group-hover:scale-105 transition-transform duration-500"
+              />
+              <div
+                class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-all duration-300 flex items-end p-4"
+              >
+                <div
+                  class="text-white transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300"
+                >
+                  <h3 class="font-bold text-lg">টেবিল</h3>
+                  <p class="text-sm">মেহমানদের জন্য</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div
+        id="imageModal"
+        class="fixed inset-0 hidden bg-black bg-opacity-90 flex items-center justify-center z-[100] transition-opacity duration-300"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="modal-title"
+      >
+        <h2 id="modal-title" class="sr-only">Image Gallery</h2>
+        <button
+          onclick="closeModal()"
+          class="absolute top-4 right-4 text-white text-4xl"
+          aria-label="Close"
+        >
+          &times;
+        </button>
+        <button
+          id="prevBtn"
+          class="absolute left-4 text-white text-4xl"
+          aria-label="Previous image"
+        >
+          &#8249;
+        </button>
+        <img
+          id="modalImage"
+          src=""
+          alt="বড় আকারে প্রদর্শিত ছবি"
+          class="max-w-[90vw] max-h-[90vh] object-contain rounded-lg"
+        />
+        <button
+          id="nextBtn"
+          class="absolute right-4 text-white text-4xl"
+          aria-label="Next image"
+        >
+          &#8250;
+        </button>
+      </div>
+
+      <section id="calculator" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+          <h2 class="section-title" data-aos="fade-up">খরচ হিসাব করুন</h2>
+          <p
+            class="text-center text-gray-600 max-w-2xl mx-auto mb-12"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            আপনার প্রয়োজনীয় আইটেমগুলো নির্বাচন করে একটি আনুমানিক বাজেট তৈরি করুন
+          </p>
+
+          <div
+            class="max-w-6xl mx-auto bg-amber-50 p-4 sm:p-8 rounded-lg shadow-xl"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <div class="flex flex-col lg:flex-row gap-8">
+              <div class="w-full lg:w-2/3">
+                <div class="mb-6 relative">
+                  <input
+                    type="text"
+                    id="search"
+                    placeholder="আইটেম খুঁজুন (যেমন: চেয়ার, টেবিল)"
+                    class="w-full p-3 border border-amber-300 rounded-lg focus:ring-2 focus:ring-amber-500 focus:outline-none"
+                    aria-label="Search for items"
+                  />
+                  <i
+                    class="fas fa-search absolute right-4 top-3.5 text-amber-400"
+                  ></i>
+                </div>
+                <div
+                  class="bg-white rounded-lg shadow overflow-x-auto max-h-[600px]"
+                >
+                  <table class="w-full min-w-[600px]">
+                    <thead class="bg-amber-100 sticky top-0 z-10">
+                      <tr>
+                        <th class="py-3 px-4 text-left font-semibold">আইটেম</th>
+                        <th class="py-3 px-4 text-center font-semibold">দাম</th>
+                        <th class="py-3 px-4 text-center font-semibold">
+                          পরিমাণ
+                        </th>
+                        <th class="py-3 px-4 text-right font-semibold">মোট</th>
+                      </tr>
+                    </thead>
+                    <tbody
+                      id="itemsBody"
+                      class="divide-y divide-gray-200"
+                    ></tbody>
+                  </table>
+                </div>
+              </div>
+
+              <aside class="w-full lg:w-1/3">
+                <div class="bg-white rounded-lg shadow p-6 sticky top-24">
+                  <h3 class="text-2xl font-bold theme-text mb-4 border-b pb-2">
+                    অর্ডার সারাংশ
+                  </h3>
+                  <div class="space-y-2 mb-4">
+                    <div
+                      class="flex justify-between items-center text-gray-600"
+                    >
+                      <span>সাবটোটাল</span>
+                      <span id="subtotal" class="font-medium">৳ ০</span>
+                    </div>
+                  </div>
+                  <div
+                    class="flex justify-between items-center text-xl font-bold mt-4 pt-4 border-t"
+                  >
+                    <span>মোট</span>
+                    <span id="grandTotal" class="theme-text">৳ ০</span>
+                  </div>
+                  <button
+                    onclick="resetAll()"
+                    class="text-sm text-red-600 hover:underline mt-6 w-full text-center"
+                    aria-label="Reset all items"
+                  >
+                    <i class="fas fa-redo mr-1"></i>সব রিসেট করুন
+                  </button>
+                </div>
+              </aside>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="py-20 bg-amber-50">
+        <div class="container mx-auto px-6">
+          <div class="flex flex-col md:flex-row items-center gap-12">
+            <div class="md:w-1/2" data-aos="fade-right">
+              <img
+                src="https://i.postimg.cc/NfK7BsfL/Whats-App-Image-2025-09-06-at-01-24-02-084f6bd3.jpg"
+                alt="রনি ডেকোরেটরের একটি ডেকোরেশন প্রজেক্ট"
+                class="rounded-lg shadow-xl w-full h-auto object-cover"
+                loading="lazy"
+              />
+            </div>
+            <div class="md:w-1/2" data-aos="fade-left">
+              <h2 class="text-3xl font-bold theme-text mb-6">
+                আমাদের সম্পর্কে
+              </h2>
+              <p class="text-gray-700 mb-4 text-justify leading-relaxed">
+                <strong class="theme-text">রনি ডেকোরেটর</strong> ১৯৮৮ সালে
+                যাত্রা শুরু করে একটি স্বপ্ন নিয়ে – সাধারণ স্থানকে অসাধারণ করে
+                তোলা। দীর্ঘ অভিজ্ঞতা এবং সৃষ্টিশীল মানুষের পরিশ্রমের মাধ্যমে
+                আমরা আজ ডেকোরেশনের জগতে একটি বিশ্বস্ত নাম হিসেবে প্রতিষ্ঠিত।
+              </p>
+              <p class="text-gray-700 mb-6 text-justify leading-relaxed">
+                আমরা বিশ্বাস করি, প্রতিটি সজ্জার পেছনে একটি অনন্য গল্প লুকিয়ে
+                থাকে। সেই গল্পটিকেই আমরা যত্ন এবং মনোযোগের সঙ্গে ফুটিয়ে তুলি।
+                আপনার সন্তুষ্টিই আমাদের মূল অনুপ্রেরণা।
+              </p>
+              <div class="mt-8 flex flex-col sm:flex-row gap-6">
+                <div
+                  class="flex items-center gap-3 bg-white p-4 rounded-lg shadow"
+                >
+                  <i class="fas fa-trophy theme-text text-2xl"></i>
+                  <span class="text-gray-700 font-medium"
+                    >৩৭+ বছরের অভিজ্ঞতা</span
+                  >
+                </div>
+                <div
+                  class="flex items-center gap-3 bg-white p-4 rounded-lg shadow"
+                >
+                  <i class="fas fa-calendar-alt theme-text text-2xl"></i>
+                  <span class="text-gray-700 font-medium"
+                    >প্রতিষ্ঠিত: ১৯৮৮</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+          <h2 class="section-title" data-aos="fade-up">যোগাযোগ করুন</h2>
+          <p
+            class="text-center text-gray-600 max-w-2xl mx-auto mb-12"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            আপনার ইভেন্টের জন্য ডেকোরেশন বুকিং বা যে কোনো তথ্যের জন্য আমাদের
+            সাথে যোগাযোগ করুন।
+          </p>
+
+          <div class="grid md:grid-cols-2 gap-12">
+            <address
+              class="not-italic"
+              data-aos="fade-right"
+              data-aos-delay="200"
+            >
+              <div class="bg-amber-100 p-8 rounded-lg shadow-lg h-full">
+                <h3 class="text-2xl font-bold theme-text mb-6">আমাদের তথ্য</h3>
+                <div class="space-y-6">
+                  <div class="flex items-start gap-4">
+                    <i
+                      class="fas fa-map-marker-alt text-2xl theme-text mt-1"
+                    ></i>
+                    <div>
+                      <h4 class="font-bold text-gray-800">ঠিকানা</h4>
+                      <p>
+                        ৪৯, শের-ই-বাংলা রোড, জাফরাবাদ রায়েরবাজার, ঢাকা-১২০৭
+                      </p>
+                    </div>
+                  </div>
+                  <div class="flex items-start gap-4">
+                    <i class="fas fa-phone-alt text-2xl theme-text mt-1"></i>
+                    <div>
+                      <h4 class="font-bold text-gray-800">ফোন</h4>
+                      <a href="tel:+8801998597540" class="hover:underline"
+                        >০১৯৯৮৫৯৭৫৪০</a
+                      >
+                      (বুকিং ও পরামর্শের জন্য)
+                    </div>
+                  </div>
+                  <div class="flex items-start gap-4">
+                    <i class="fab fa-whatsapp text-2xl theme-text mt-1"></i>
+                    <div>
+                      <h4 class="font-bold text-gray-800">WhatsApp</h4>
+                      <a
+                        href="https://wa.me/8801998597540"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="hover:underline"
+                        >০১৯৯৮৫৯৭৫৪০ (সরাসরি মেসেজ করুন)</a
+                      >
+                    </div>
+                  </div>
+                  <div class="flex items-start gap-4">
+                    <i class="fas fa-clock text-2xl theme-text mt-1"></i>
+                    <div>
+                      <h4 class="font-bold text-gray-800">কাজের সময়</h4>
+                      <p>প্রতিদিন: সকাল ৯টা - রাত ১০টা</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="mt-8 border-t pt-6">
+                  <h4 class="font-bold text-gray-800 mb-4">সামাজিক মাধ্যম</h4>
+                  <div class="flex space-x-4">
+                    <a
+                      href="https://www.facebook.com/profile.php?id=100064316821498"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="bg-amber-600 text-white w-10 h-10 rounded-full flex items-center justify-center hover:bg-amber-700 transition"
+                      aria-label="Facebook"
+                      ><i class="fab fa-facebook-f"></i
+                    ></a>
+                    <a
+                      href="https://www.instagram.com/roni_decorator?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="bg-amber-600 text-white w-10 h-10 rounded-full flex items-center justify-center hover:bg-amber-700 transition"
+                      aria-label="Instagram"
+                      ><i class="fab fa-instagram"></i
+                    ></a>
+                    <a
+                      href="https://wa.me/8801998597540"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="bg-amber-600 text-white w-10 h-10 rounded-full flex items-center justify-center hover:bg-amber-700 transition"
+                      aria-label="WhatsApp"
+                      ><i class="fab fa-whatsapp"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </address>
+
+            <div data-aos="fade-left" data-aos-delay="300">
+              <form
+                id="contact-form"
+                class="bg-amber-50 p-8 rounded-lg shadow-lg"
+                novalidate
+              >
+                <h3 class="text-2xl font-bold theme-text mb-6">বার্তা পাঠান</h3>
+                <div class="mb-4">
+                  <label for="name" class="block mb-2 font-medium"
+                    >আপনার নাম</label
+                  >
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    class="w-full p-3 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-amber-500"
+                    placeholder="নাম লিখুন"
+                    required
+                  />
+                  <p id="name-error" class="form-error"></p>
+                </div>
+                <div class="mb-4">
+                  <label for="phone" class="block mb-2 font-medium"
+                    >ফোন নম্বর</label
+                  >
+                  <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    class="w-full p-3 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-amber-500"
+                    placeholder="ফোন নম্বর লিখুন"
+                    required
+                  />
+                  <p id="phone-error" class="form-error"></p>
+                </div>
+                <div class="mb-4">
+                  <label for="event" class="block mb-2 font-medium"
+                    >ইভেন্টের ধরন</label
+                  >
+                  <select
+                    id="event"
+                    name="event"
+                    class="w-full p-3 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-amber-500 bg-white"
+                    required
+                  >
+                    <option value="">ইভেন্ট নির্বাচন করুন</option>
+                    <option value="বিয়ে">বিয়ে</option>
+                    <option value="গায়ে হলুদ">গায়ে হলুদ</option>
+                    <option value="এঙ্গেজমেন্ট">এঙ্গেজমেন্ট</option>
+                    <option value="জন্মদিন">জন্মদিন</option>
+                    <option value="কর্পোরেট ইভেন্ট">কর্পোরেট ইভেন্ট</option>
+                  </select>
+                  <p id="event-error" class="form-error"></p>
+                </div>
+                <div class="mb-6">
+                  <label for="message" class="block mb-2 font-medium"
+                    >বার্তা</label
+                  >
+                  <textarea
+                    id="message"
+                    name="message"
+                    rows="4"
+                    class="w-full p-3 rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-amber-500"
+                    placeholder="আপনার বার্তা লিখুন..."
+                    required
+                  ></textarea>
+                  <p id="message-error" class="form-error"></p>
+                </div>
+                <button type="submit" class="btn-primary w-full justify-center">
+                  <i class="fas fa-paper-plane"></i>বার্তা পাঠান
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-amber-900 text-amber-200 py-12">
+      <div class="container mx-auto px-6">
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div>
+            <h3 class="text-xl font-bold text-white mb-4">রনি ডেকোরেটর</h3>
+            <p class="mb-4 text-sm">
+              বিয়ে, আকদ ও গায়ে হলুদের আয়োজনের জন্য এক্সক্লুসিভ ডেকোরেশন
+              সার্ভিস।
+            </p>
+            <div class="flex space-x-4">
+              <a
+                href="https://www.facebook.com/profile.php?id=100064316821498"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-amber-300 hover:text-white transition"
+                aria-label="Facebook"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/roni_decorator?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-amber-300 hover:text-white transition"
+                aria-label="Instagram"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a
+                href="https://wa.me/8801998597540"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-amber-300 hover:text-white transition"
+                aria-label="WhatsApp"
+                ><i class="fab fa-whatsapp"></i
+              ></a>
+            </div>
+          </div>
+
+          <div>
+            <h3 class="text-lg font-bold text-white mb-4">যোগাযোগ</h3>
+            <ul class="space-y-2 text-sm">
+              <li class="flex items-start gap-2">
+                <i class="fas fa-map-marker-alt mt-1"></i>
+                <span>৪৯, শের-ই-বাংলা রোড , জাফরাবাদ, ঢাকা-১২০৭</span>
+              </li>
+              <li class="flex items-start gap-2">
+                <i class="fas fa-phone-alt mt-1"></i>
+                <a href="tel:+8801998597540" class="hover:text-white"
+                  >০১৯৯৮৫৯৭৫৪০</a
+                >
+              </li>
+              <li class="flex items-start gap-2">
+                <i class="fab fa-whatsapp mt-1"></i>
+                <a
+                  href="https://wa.me/8801998597540"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="hover:text-white"
+                  >WhatsApp: ০১৯৯৮৫৯৭৫৪০</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="text-lg font-bold text-white mb-4">
+              Website Developed By
+            </h3>
+            <div class="flex items-center gap-3">
+              <div>
+                <p class="font-semibold text-white">Md. Imtiaj Ahmed Anik</p>
+                <p class="text-sm text-amber-300">CSE Engineer (AIUB)</p>
+                <div class="flex space-x-3 mt-2">
+                  <!-- LinkedIn -->
+                  <a
+                    href="https://www.linkedin.com/in/imtiajahmed51/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="hover:text-white transition"
+                    aria-label="LinkedIn"
+                  >
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                  <!-- GitHub -->
+                  <a
+                    href="https://github.com/ImtiajAhmed51"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="hover:text-white transition"
+                    aria-label="GitHub"
+                  >
+                    <i class="fab fa-github"></i>
+                  </a>
+                  <!-- Facebook -->
+                  <a
+                    href="https://www.facebook.com/share/173JxooPuH/?mibextid=wwXIfr"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="hover:text-white transition"
+                    aria-label="Facebook"
+                  >
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="border-t border-amber-800 mt-8 pt-6 text-center text-sm text-amber-300"
+        >
+          <p>
+            &copy; <span id="copyright-year"></span> রনি ডেকোরেটর। সর্বস্বত্ব
+            সংরক্ষিত।
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <a
+      href="#home"
+      id="back-to-top"
+      class="btn-primary"
+      aria-label="Back to top"
+    >
+      <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      // --- Initialize AOS animation library ---
+      AOS.init({
+        duration: 800,
+        easing: "ease-in-out",
+        once: true,
+      });
+
+      // --- Main DOMContentLoaded Event Listener ---
+      document.addEventListener("DOMContentLoaded", () => {
+        // Mobile Menu Toggle
+        const mobileMenuButton = document.getElementById("mobile-menu-button");
+        const mobileMenu = document.getElementById("mobile-menu");
+        const menuIcon = mobileMenuButton.querySelector("i");
+
+        mobileMenuButton.addEventListener("click", () => {
+          const isHidden = mobileMenu.classList.toggle("hidden");
+          menuIcon.className = isHidden ? "fas fa-bars" : "fas fa-times";
+          mobileMenuButton.setAttribute("aria-expanded", !isHidden);
+        });
+
+        document.querySelectorAll("#mobile-menu a").forEach((link) => {
+          link.addEventListener("click", () => {
+            mobileMenu.classList.add("hidden");
+            menuIcon.className = "fas fa-bars";
+            mobileMenuButton.setAttribute("aria-expanded", "false");
+          });
+        });
+
+        // Update copyright year
+        document.getElementById("copyright-year").textContent =
+          new Date().getFullYear();
+
+        // Calculator Logic
+        initializeCalculator();
+
+        // Contact Form Validation and Submission
+        initializeContactForm();
+
+        // Image Gallery Modal
+        initializeGalleryModal();
+
+        // Back to Top Button
+        initializeBackToTopButton();
+
+        // Hero Section Typing Effect
+        initializeTypingEffect();
+      });
+
+      // --- Utility Functions ---
+      function toBengaliNumber(number) {
+        const banglaDigits = ["০", "১", "২", "৩", "৪", "৫", "৬", "৭", "৮", "৯"];
+        return String(number).replace(/\d/g, (d) => banglaDigits[d]);
+      }
+
+      function toEnglishNumber(banglaStr) {
+        const englishDigits = {
+          "০": "0",
+          "১": "1",
+          "২": "2",
+          "৩": "3",
+          "৪": "4",
+          "৫": "5",
+          "৬": "6",
+          "৭": "7",
+          "৮": "8",
+          "৯": "9",
+        };
+        return banglaStr.replace(/[০-৯]/g, (d) => englishDigits[d]);
+      }
+
+      // --- Hero Section Typing Effect ---
+      function initializeTypingEffect() {
+        const words = ["স্মরণীয়", "আনন্দময়", "আকর্ষণীয়"];
+        let wordIndex = 0;
+        let charIndex = 0;
+        let isDeleting = false;
+        const typingElement = document.getElementById("typing-effect");
+
+        function type() {
+          const currentWord = words[wordIndex];
+          if (isDeleting) {
+            typingElement.textContent = currentWord.substring(0, charIndex--);
+          } else {
+            typingElement.textContent = currentWord.substring(0, charIndex++);
+          }
+
+          if (!isDeleting && charIndex === currentWord.length + 1) {
+            isDeleting = true;
+            setTimeout(type, 2000); // Pause at end of word
+          } else if (isDeleting && charIndex === -1) {
+            isDeleting = false;
+            wordIndex = (wordIndex + 1) % words.length;
+            setTimeout(type, 500); // Pause before typing new word
+          } else {
+            const typingSpeed = isDeleting ? 100 : 200;
+            setTimeout(type, typingSpeed);
+          }
+        }
+        type();
+      }
+
+      // --- Calculator Logic ---
+      function initializeCalculator() {
+        const items = [
+          {
+            id: 1,
+            name: "সামিয়ানা প্যান্ডেল",
+            unit: "প্রতি স্কোয়ার ফিট",
+            price: 10,
+          },
+          {
+            id: 2,
+            name: "ত্রিপল প্যান্ডেল",
+            unit: "প্রতি স্কোয়ার ফিট",
+            price: 20,
+          },
+          { id: 3, name: "স্টেজ", unit: "প্রতি স্কোয়ার ফিট", price: 30 },
+          { id: 4, name: "পাতিল", unit: "প্রতি পিস", price: 200 },
+          { id: 5, name: "ওয়াশিং টব", unit: "প্রতি পিস", price: 100 },
+          { id: 6, name: "হামানদিস্তা", unit: "প্রতি পিস", price: 100 },
+          { id: 7, name: "গামলা/বল", unit: "প্রতি পিস", price: 15 },
+          { id: 8, name: "লগন", unit: "প্রতি পিস", price: 150 },
+          { id: 9, name: "কড়াই", unit: "প্রতি পিস", price: 150 },
+          { id: 10, name: "বেসিন সেট", unit: "প্রতি সেট", price: 800 },
+          { id: 11, name: "রাউন্ড টেবিল", unit: "প্রতি পিস", price: 200 },
+          { id: 12, name: "লম্বা টেবিল", unit: "প্রতি পিস", price: 200 },
+          { id: 13, name: "টেবিল কভার", unit: "প্রতি পিস", price: 50 },
+          { id: 14, name: "টেবিল ঝালর", unit: "প্রতি পিস", price: 80 },
+          { id: 15, name: "চেয়ার", unit: "প্রতি পিস", price: 15 },
+          { id: 16, name: "কুশন চেয়ার", unit: "প্রতি পিস", price: 140 },
+          { id: 17, name: "ফুল প্লেট", unit: "প্রতি পিস", price: 15 },
+          { id: 18, name: "কোয়াটার প্লেট", unit: "প্রতি পিস", price: 10 },
+          { id: 19, name: "ড্রাম", unit: "প্রতি পিস", price: 150 },
+          { id: 20, name: "ল্যাম ডিস", unit: "প্রতি পিস", price: 600 },
+          {
+            id: 21,
+            name: "সিরামিক রাইস ডিস",
+            unit: "প্রতি পিস",
+            price: 100,
+          },
+          {
+            id: 22,
+            name: "মেলামাইন রাইস ডিস",
+            unit: "প্রতি পিস",
+            price: 30,
+          },
+          { id: 23, name: "রাইস চামচ", unit: "প্রতি পিস", price: 5 },
+          {
+            id: 24,
+            name: "সিরামিক কারি বাটি",
+            unit: "প্রতি পিস",
+            price: 80,
+          },
+          {
+            id: 25,
+            name: "মেলামাইন কারি বাটি",
+            unit: "প্রতি পিস",
+            price: 20,
+          },
+          { id: 26, name: "কারি চামচ", unit: "প্রতি পিস", price: 5 },
+          {
+            id: 27,
+            name: "গ্লাস (দেশি/বিদেশি)",
+            unit: "প্রতি পিস",
+            price: 10,
+          },
+          { id: 28, name: "জগ (দেশি/বিদেশি)", unit: "প্রতি পিস", price: 30 },
+          { id: 29, name: "বরের ডিস", unit: "প্রতি পিস", price: 200 },
+          { id: 30, name: "কার্পেট", unit: "প্রতি স্কোয়ার ফিট", price: 25 },
+          { id: 31, name: "সাইট পর্দা", unit: "প্রতি পিস", price: 400 },
+          { id: 32, name: "স্ট্যান্ড ফ্যান", unit: "প্রতি পিস", price: 500 },
+          { id: 33, name: "চিমটা", unit: "প্রতি পিস", price: 10 },
+          { id: 34, name: "টিউব লাইট", unit: "প্রতি পিস", price: 200 },
+          { id: 35, name: "হ্যালোজেন লাইট", unit: "প্রতি পিস", price: 200 },
+          { id: 36, name: "খানসামা (ওয়েটার)", unit: "জন প্রতি", price: 500 },
+        ];
+
+        const cart = {};
+        const tbody = document.getElementById("itemsBody");
+
+        const renderItems = () => {
+          tbody.innerHTML = "";
+          items.forEach((item) => {
+            const qty = cart[item.id] || 0;
+            const lineTotal = qty * item.price;
+            const tr = document.createElement("tr");
+            tr.className = `transition-colors duration-200 hover:bg-amber-50 ${
+              qty > 0 ? "table-row-active" : ""
+            }`;
+            tr.innerHTML = `
+              <td class="py-3 px-4">
+                <div class="font-medium theme-text">${item.name}</div>
+                <div class="text-sm text-gray-500">${item.unit}</div>
+              </td>
+              <td class="py-3 px-4 text-center">৳${toBengaliNumber(
+                item.price
+              )}</td>
+              <td class="py-3 px-4 text-center">
+                <input type="text" value="${toBengaliNumber(qty)}" 
+                  data-item-id="${item.id}"
+                  class="w-20 p-1 border border-gray-300 rounded text-center focus:ring-1 focus:ring-amber-500 focus:outline-none"
+                  inputmode="numeric"
+                >
+              </td>
+              <td class="py-3 px-4 text-right font-semibold">৳${toBengaliNumber(
+                lineTotal
+              )}</td>
+            `;
+            tbody.appendChild(tr);
+          });
+          updateGrandTotal();
+        };
+
+        const updateGrandTotal = () => {
+          let subtotal = items.reduce(
+            (sum, item) => sum + (cart[item.id] || 0) * item.price,
+            0
+          );
+          document.getElementById(
+            "subtotal"
+          ).textContent = `৳ ${toBengaliNumber(subtotal)}`;
+          document.getElementById(
+            "grandTotal"
+          ).textContent = `৳ ${toBengaliNumber(subtotal)}`;
+        };
+
+        tbody.addEventListener("input", (e) => {
+          if (e.target.tagName === "INPUT") {
+            const id = parseInt(e.target.dataset.itemId, 10);
+            const value = e.target.value;
+
+            const n = Math.max(0, parseInt(toEnglishNumber(value) || "0", 10));
+            if (n > 0) cart[id] = n;
+            else delete cart[id];
+
+            e.target.value = toBengaliNumber(n);
+
+            const row = e.target.closest("tr");
+            row.classList.toggle("table-row-active", n > 0);
+            const lineTotalCell = row.querySelector("td:last-child");
+            const lineTotal = n * items.find((item) => item.id === id).price;
+            lineTotalCell.textContent = "৳" + toBengaliNumber(lineTotal);
+            updateGrandTotal();
+          }
+        });
+
+        // Search Functionality
+        document
+          .getElementById("search")
+          .addEventListener("input", function () {
+            const query = this.value.toLowerCase().trim();
+            document.querySelectorAll("#itemsBody tr").forEach((row) => {
+              const itemName = row
+                .querySelector("td:first-child .font-medium")
+                .textContent.toLowerCase();
+              row.style.display = itemName.includes(query) ? "" : "none";
+            });
+          });
+
+        window.resetAll = () => {
+          Object.keys(cart).forEach((key) => delete cart[key]);
+          renderItems();
+        };
+
+        renderItems();
+      }
+
+      // --- Package Booking Modal & WhatsApp Logic ---
+      let selectedPackage = {};
+
+      window.openForm = (name, price, features) => {
+        selectedPackage = { name, price, features };
+        document.getElementById("formModal").classList.remove("hidden");
+      };
+
+      window.closeForm = () => {
+        document.getElementById("formModal").classList.add("hidden");
+      };
+
+      window.sendWhatsApp = () => {
+        const name = document.getElementById("userName").value.trim();
+        const number = document.getElementById("userNumber").value.trim();
+        const address = document.getElementById("userAddress").value.trim();
+
+        if (!name || !number || !address) {
+          alert("সব তথ্য পূরণ করুন!");
+          return;
+        }
+
+        const numberPattern = /^01[3-9]\d{8}$/;
+        if (!numberPattern.test(number)) {
+          alert("সঠিক মোবাইল নাম্বার দিন (যেমন: 017XXXXXXXX)");
+          return;
+        }
+
+        const featureList = selectedPackage.features
+          .split(",")
+          .map((f) => f.trim())
+          .join("\n"); // এখানে কোনো ✔️ যোগ করা হয়নি
+
+        const message =
+          `প্যাকেজ বুকিং\n\n` +
+          `প্যাকেজ: ${selectedPackage.name}\n` +
+          `মূল্য: ${selectedPackage.price}\n` +
+          `ফিচার:\n${featureList}\n\n` +
+          `নাম: ${name}\n` +
+          `মোবাইল: ${number}\n` +
+          `ঠিকানা: ${address}`;
+
+        const whatsappNumber = "8801998597540";
+        const url = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
+          message
+        )}`;
+
+        window.open(url, "_blank");
+        closeForm();
+      };
+
+      // --- Contact Form Logic ---
+      function initializeContactForm() {
+        const form = document.getElementById("contact-form");
+        const name = document.getElementById("name");
+        const phone = document.getElementById("phone");
+        const eventSelect = document.getElementById("event");
+        const message = document.getElementById("message");
+
+        const showError = (field, message) => {
+          document.getElementById(`${field.id}-error`).textContent = message;
+          field.classList.add("border-red-500");
+        };
+
+        const clearError = (field) => {
+          document.getElementById(`${field.id}-error`).textContent = "";
+          field.classList.remove("border-red-500");
+        };
+
+        form.addEventListener("submit", function (e) {
+          e.preventDefault();
+          let isValid = true;
+
+          // Clear previous errors
+          [name, phone, eventSelect, message].forEach(clearError);
+
+          // Validation
+          if (name.value.trim() === "") {
+            showError(name, "আপনার নাম লিখুন");
+            isValid = false;
+          }
+
+          const phonePattern = /^01[3-9]\d{8}$/;
+          if (!phonePattern.test(phone.value.trim())) {
+            showError(
+              phone,
+              "সঠিক বাংলাদেশি ফোন নম্বর লিখুন (১১ সংখ্যার, 01 দিয়ে শুরু)"
+            );
+            isValid = false;
+          }
+
+          if (eventSelect.value === "") {
+            showError(eventSelect, "ইভেন্টের ধরন নির্বাচন করুন");
+            isValid = false;
+          }
+
+          if (message.value.trim() === "") {
+            showError(message, "বার্তা লিখুন");
+            isValid = false;
+          }
+
+          if (isValid) {
+            const whatsappNumber = "8801998597540";
+            const text = `নাম: ${name.value.trim()}%0Aফোন: ${phone.value.trim()}%0Aইভেন্টের ধরন: ${
+              eventSelect.value
+            }%0Aবার্তা: ${message.value.trim()}`;
+            const url = `https://wa.me/${whatsappNumber}?text=${text}`;
+            window.open(url, "_blank", "noopener,noreferrer");
+            form.reset();
+          }
+        });
+      }
+
+      // --- Image Gallery Modal Logic ---
+      function initializeGalleryModal() {
+        const galleryImages = document.querySelectorAll("#galleryGrid img");
+        const modal = document.getElementById("imageModal");
+        const modalImg = document.getElementById("modalImage");
+        const prevBtn = document.getElementById("prevBtn");
+        const nextBtn = document.getElementById("nextBtn");
+        let currentIndex = 0;
+
+        galleryImages.forEach((img, index) => {
+          img.parentElement.addEventListener("click", () => {
+            currentIndex = index;
+            openModal(img.src);
+          });
+        });
+
+        const openModal = (src) => {
+          modalImg.src = src;
+          modal.classList.remove("hidden");
+        };
+
+        window.closeModal = () => {
+          modal.classList.add("hidden");
+        };
+
+        const showImage = (index) => {
+          modalImg.src = galleryImages[index].src;
+        };
+
+        const nextImage = () => {
+          currentIndex = (currentIndex + 1) % galleryImages.length;
+          showImage(currentIndex);
+        };
+
+        const prevImage = () => {
+          currentIndex =
+            (currentIndex - 1 + galleryImages.length) % galleryImages.length;
+          showImage(currentIndex);
+        };
+
+        prevBtn.addEventListener("click", (e) => {
+          e.stopPropagation();
+          prevImage();
+        });
+        nextBtn.addEventListener("click", (e) => {
+          e.stopPropagation();
+          nextImage();
+        });
+        modal.addEventListener("click", closeModal);
+        modalImg.addEventListener("click", (e) => e.stopPropagation());
+        document.addEventListener("keydown", (e) => {
+          if (!modal.classList.contains("hidden")) {
+            if (e.key === "Escape") closeModal();
+            if (e.key === "ArrowRight") nextImage();
+            if (e.key === "ArrowLeft") prevImage();
+          }
+        });
+      }
+
+      // --- Back to Top Button Logic ---
+      function initializeBackToTopButton() {
+        const backToTopButton = document.getElementById("back-to-top");
+        window.onscroll = () => {
+          if (
+            document.body.scrollTop > 100 ||
+            document.documentElement.scrollTop > 100
+          ) {
+            backToTopButton.style.display = "block";
+          } else {
+            backToTopButton.style.display = "none";
+          }
+        };
+      }
+    </script>
+
+    <div
+      id="formModal"
+      class="hidden fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-[100]"
+    >
+      <div class="bg-white rounded-lg shadow-lg w-full max-w-sm p-6 m-4">
+        <h2 class="text-xl font-bold mb-4">আপনার তথ্য দিন</h2>
+        <input
+          type="text"
+          id="userName"
+          placeholder="নাম"
+          class="w-full border p-2 mb-3 rounded"
+        />
+        <input
+          type="text"
+          id="userNumber"
+          placeholder="মোবাইল নম্বর"
+          class="w-full border p-2 mb-3 rounded"
+        />
+        <input
+          type="text"
+          id="userAddress"
+          placeholder="ঠিকানা"
+          class="w-full border p-2 mb-3 rounded"
+        />
+        <div class="flex justify-end space-x-2">
+          <button
+            onclick="closeForm()"
+            class="px-4 py-2 bg-gray-400 text-white rounded"
+          >
+            বাতিল
+          </button>
+          <button
+            onclick="sendWhatsApp()"
+            class="px-4 py-2 bg-amber-600 text-white rounded"
+          >
+            সাবমিট
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
